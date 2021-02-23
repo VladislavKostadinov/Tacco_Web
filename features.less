@@ -1,0 +1,36 @@
+@import "var.less";
+
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    @media only screen and (max-width: 745px) {
+        width: 100%; }
+
+    
+
+
+    &-fea {
+        background: @color-white;
+        padding: 10px;
+        border: 1px solid @color-white;
+        text-align: center;
+        margin-top: 20px;
+        width: 23%;
+ 
+            @media only screen and (max-width: 950px) {
+                width: 30%; }
+                @media only screen and (max-width: 745px) {
+                    width: 48%; }
+                    @media only screen and (max-width: @mobile-xs) {
+                        width: 100%; }
+    }
+    
+    
+    &-icon {
+        font-size: 50px;
+    }
+}

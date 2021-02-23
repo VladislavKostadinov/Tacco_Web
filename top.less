@@ -1,0 +1,164 @@
+@import "var.less";
+
+.top {
+    @media only screen and (min-width: 745px) {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+        height: auto;
+
+    }
+
+
+&-header {
+    min-height: 390px;
+    background: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/taco.jpg);
+    background-size: cover;
+    background-position: bottom right;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    @media only screen and (min-width: 745px) {
+       width: 200%;
+     
+    
+    }
+    
+    @media only screen and (max-width: @mobile-xs) {
+
+        margin-bottom: 10px;
+        
+        
+    }
+
+
+      
+    h1 {
+        background: @color-yellow;
+        padding: 5px;
+    }
+
+    p {
+        background: @color-yellow;
+        padding: 5px;
+    }
+}
+
+&-info {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-end;
+width: 100%;
+margin-top: 20px;
+@media only screen and (min-width: 745px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    
+}
+@media only screen and (max-width: @mobile-xs) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    
+    
+}
+
+}
+
+&-price  {
+    background: @color-yellow;
+    width: 48%;
+    margin: 0 0 0 0;
+  @media only screen and (min-width: 745px) {
+    margin: 0 0 0 27px;
+    height: 47%;
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+@media only screen and (max-width: @mobile-xs) {
+    margin: 0 auto;
+    height: 47%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+   
+
+    
+    
+    &-one {
+font-size: 60px;
+font-weight: 300;
+margin: 0 auto;
+
+
+
+
+}
+p {
+    text-align: center;
+    margin: 0 auto;
+    
+}
+}
+
+&-price2  {
+    background: @color-yellow;
+    width: 48%;
+    margin: 0 0 0 0;
+    @media only screen and (min-width: 745px) {
+        margin: 0 0 0 27px;
+        height: 47%;
+        width: 92%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    @media only screen and (max-width: @mobile-xs) {
+        margin: 0 auto;
+        height: 47%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 10px;
+    
+    }
+  
+   
+
+    
+    
+    &-one {
+font-size: 60px;
+font-weight: 300;
+margin: 0 auto;
+
+
+
+
+}
+p {
+    text-align: center;
+    margin: 0 auto;
+}
+}
+
+}
